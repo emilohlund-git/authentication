@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://authentication-nu.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 
 ![screenshot](./public/screenshot.png)
 
-Demo deployed at [Vercel](https://image-uploader-rose.vercel.app/)
+Demo deployed at [Vercel](https://authentication-nu.vercel.app/)
 
 ### Built With
 
