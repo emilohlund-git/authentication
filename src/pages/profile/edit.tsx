@@ -71,12 +71,11 @@ const EditProfile = (props: Props) => {
                   <td className="flex flex-col gap-y-2 w-full">
                     photo
                     {progress > 0 && progress < 100 ? (
-                      <div
-                        className="radial-progress text-primary"
-                        style={{ "--value": progress, "--thickness": "2px" }}
-                      >
-                        {progress + "%"}
-                      </div>
+                      <progress
+                        className="progress progress-info w-56"
+                        value={progress}
+                        max="100"
+                      ></progress>
                     ) : (
                       <UserAvatarProfile
                         onClick={() => handleFileDialog()}
